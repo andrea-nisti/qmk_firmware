@@ -1,3 +1,12 @@
+# My QMK fork
+This is my personal qmk fork, mainly based on [this](https://github.com/gourdo1/qmk_firmware/tree/c88b83fb767a03f7d00068159fe31317c80032d0/keyboards/gmmk/pro/rev1/ansi/keymaps/gourdo1) work. The merit goes to [gourdo1](https://github.com/gourdo1) for the hard work, I am adding some modifications here and there and using this as a starting point.
+
+## Keyboards
+
+- GMMK PRO V1
+
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
