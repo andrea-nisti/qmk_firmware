@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/debian
+{
+    "name": "QMK",
+    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    // "image": "ghcr.io/qmk/qmk_cli",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "xaver.clang-format",
+                "llvm-vs-code-extensions.vscode-clangd",
+                "ms-vscode-remote.remote-containers"
+            ]
+        }
+    },
+    "remoteUser": "vscode",
+    "postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/setup.sh ${containerWorkspaceFolder}",
+    "postAttachCommand": "sudo chown -R vscode /workspaces",
+}
